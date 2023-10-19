@@ -2,7 +2,7 @@
   "name": "pack-it-react",
   "module": "index.ts",
   "type": "module",
-  "bin": "./bundle.js",
+  "bin": "./cli",
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -13,5 +13,5 @@
     "clerc": "^0.42.2",
     "inquirer": "^9.2.11"
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
