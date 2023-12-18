@@ -3,10 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "main": "build/index.js",
-  "dist": {
-    "type": "module",
-    "main": "build/index.js"
-  },
+  "bin": "build/index.js",
   "scripts": {
     "build": "bun run build.js"
   },
@@ -21,5 +18,5 @@
     "clerc": "^0.42.2",
     "inquirer": "^9.2.11"
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
