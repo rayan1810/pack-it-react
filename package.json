@@ -2,8 +2,16 @@
   "name": "pack-it-react",
   "module": "index.ts",
   "type": "module",
-  "bin": "./cli",
+  "main": "bundle.js",
+  "dist": {
+    "type": "module",
+    "main": "build/index.js"
+  },
+  "scripts": {
+    "build": "bun run build.js"
+  },
   "devDependencies": {
+    "@types/inquirer": "^9.0.7",
     "bun-types": "latest"
   },
   "peerDependencies": {
@@ -13,5 +21,5 @@
     "clerc": "^0.42.2",
     "inquirer": "^9.2.11"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
