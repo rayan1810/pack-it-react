@@ -2,7 +2,7 @@
   "name": "pack-it-react",
   "module": "index.ts",
   "type": "module",
-  "main": "bundle.js",
+  "main": "build/index.js",
   "dist": {
     "type": "module",
     "main": "build/index.js"
@@ -21,5 +21,5 @@
     "clerc": "^0.42.2",
     "inquirer": "^9.2.11"
   },
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
