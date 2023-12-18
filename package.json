@@ -2,8 +2,8 @@
   "name": "pack-it-react",
   "module": "index.ts",
   "type": "module",
-  "main": "build/index.js",
-  "bin": "build/index.js",
+  "main": "./build/index.js",
+  "bin": "./build/index.js",
   "scripts": {
     "build": "bun run build.js"
   },
@@ -18,5 +18,5 @@
     "clerc": "^0.42.2",
     "inquirer": "^9.2.11"
   },
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
